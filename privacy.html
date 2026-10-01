@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SlopCheck Privacy Policy</title>
+<style>body{max-width:720px;margin:40px auto;padding:0 16px;font:16px/1.6 system-ui,sans-serif;color:#0f172a}h1,h2{line-height:1.25}code{background:#f1f5f9;padding:1px 4px;border-radius:4px}</style></head>
+<body>
+<h1>SlopCheck: Privacy Policy</h1>
+<p>Last updated: 1 October 2026</p>
+
+<h2>What SlopCheck does</h2>
+<p>SlopCheck is a browser extension that compares the references in a text selection you make with the bibliographic records held by Crossref. It only runs when you select text, right-click and choose "SlopCheck: verify selected references".</p>
+
+<h2>Data sent to third parties</h2>
+<p>When you run a scan, the extension sends the following to Crossref, a scholarly metadata service:</p>
+<ul>
+<li><b>DOIs</b> found in your selection or in the links inside it, sent to <code>api.crossref.org</code> to retrieve the official record (title, authors, journal, year).</li>
+<li><b>Citation text</b> (up to 350 characters per citation, with URLs and DOIs removed) for citations that have no DOI, or whose DOI does not exist or belongs to a different paper, sent to <code>api.crossref.org</code> as a bibliographic search. Web links that are not articles are not sent.</li>
+<li>When Crossref has no record for a DOI, the DOI is also sent to <code>doi.org</code> to find out which registration agency holds it.</li>
+</ul>
+<p>Requests include the contact address <code>slopcheck@gmail.com</code>, as Crossref asks API users to do. Like any web request, they also expose your IP address and browser details to Crossref and doi.org. Their handling of that data is governed by the <a href="https://www.crossref.org/operations-and-sustainability/privacy/">Crossref privacy policy</a> and the <a href="https://www.doi.org/privacy.html">DOI Foundation privacy policy</a>.</p>
+<p>Nothing is sent to the developer of SlopCheck. The extension does not use analytics, advertising or tracking, and does not sell or share data.</p>
+
+<h2>Data stored on your device</h2>
+<p>The standard edition stores one record in your browser's local extension storage: the date and the number of scans you have run today, used to apply the daily limit. The Sleuth Edition stores nothing. Nothing is transmitted anywhere, and any stored record is removed when you uninstall the extension.</p>
+
+<h2>Page access</h2>
+<p>The extension reads the text you have selected, and the links inside that selection, on the page where you start a scan. It does not read or store any other page content, and does not run any analysis unless you start a scan.</p>
+
+<h2>Contact</h2>
+<p>Questions: <a href="mailto:slopcheck@gmail.com">slopcheck@gmail.com</a> or <a href="https://www.linkedin.com/in/michalpiotrwojcik/">LinkedIn</a>.</p>
+</body></html>
